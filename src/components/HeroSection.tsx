@@ -1,17 +1,8 @@
 import { ThemeToggle } from "./ThemeToggle";
-import heroBg from "@/assets/hero-bg.jpg";
 
 export function HeroSection() {
   return (
-    <section 
-      className="min-h-screen flex items-center justify-center relative overflow-hidden"
-      style={{
-        backgroundImage: `url(${heroBg})`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundAttachment: 'fixed'
-      }}
-    >
+    <section className="min-h-screen flex items-center justify-center relative overflow-hidden">
       {/* Overlay */}
       <div className="absolute inset-0 bg-background/80 backdrop-blur-sm"></div>
       
