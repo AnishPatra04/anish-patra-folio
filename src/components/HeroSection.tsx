@@ -14,7 +14,7 @@ export function HeroSection() {
       </div>
 
       {/* Theme toggle */}
-      <div className="absolute top-8 right-8 z-20">
+      <div className="absolute top-8 left-8 z-20">
         <ThemeToggle />
       </div>
 
